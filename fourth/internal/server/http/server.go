@@ -1,7 +1,7 @@
 package http
 
 import (
-	pb "lesson/fourth/api
+	pb "lesson/fourth/api"
 	"lesson/fourth/configs"
 
 	bm "github.com/go-kratos/kratos/pkg/net/http/blademaster"

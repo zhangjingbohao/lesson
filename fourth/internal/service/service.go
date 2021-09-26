@@ -1,6 +1,8 @@
 package service
 
 import (
+	pb "lesson/fourth/api"
+
 	"github.com/google/wire"
 	"lesson/fourth/internal/dao"
 )
