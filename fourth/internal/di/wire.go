@@ -4,15 +4,15 @@
 package di
 
 import (
-	"kratos-risk/internal/dao"
-	"kratos-risk/internal/service"
-	"kratos-risk/internal/server/grpc"
-	"kratos-risk/internal/server/http"
+	"lesson/fourth/internal/dao"
+	"lesson/fourth/internal/server/grpc"
+	"lesson/fourth/internal/server/http"
+	"lesson/fourth/internal/service"
 
 	"github.com/google/wire"
 )
 
-//go:generate kratos t wire
+//go:generate wire
 func InitApp() (*App, func(), error) {
 	panic(wire.Build(dao.Provider, service.Provider, http.New, grpc.New, NewApp))
 }
