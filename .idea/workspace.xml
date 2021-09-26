@@ -20,21 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6106aa7-8759-44d0-a5c5-b68a3feaebbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fourth/api/api.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fourth/api/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fourth/cmd/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fourth/configs/app.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fourth/configs/conf.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fourth/internal/dao/dao.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fourth/internal/dao/mysql/mysql.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fourth/internal/dao/oracle/oracle.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fourth/internal/dao/redis/redis.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fourth/internal/dao/wire.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fourth/internal/server/grpc/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fourth/internal/server/http/server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fourth/configs/conf.go" beforeDir="false" afterPath="$PROJECT_DIR$/fourth/configs/conf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fourth/internal/dao/dao.go" beforeDir="false" afterPath="$PROJECT_DIR$/fourth/internal/dao/dao.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fourth/internal/dao/redis/redis.go" beforeDir="false" afterPath="$PROJECT_DIR$/fourth/internal/dao/redis/redis.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fourth/internal/dao/wire.go" beforeDir="false" afterPath="$PROJECT_DIR$/fourth/internal/dao/wire.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fourth/internal/di/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/fourth/internal/di/app.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fourth/internal/di/wire.go" beforeDir="false" afterPath="$PROJECT_DIR$/fourth/internal/di/wire.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fourth/internal/server/grpc/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/fourth/internal/server/grpc/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fourth/internal/server/http/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/fourth/internal/server/http/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fourth/internal/service/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/fourth/internal/service/service.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/fsnotify/fsnotify/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/fsnotify/fsnotify/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/fsnotify/fsnotify/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/fsnotify/fsnotify/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/fsnotify/fsnotify/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/fsnotify/fsnotify/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/fsnotify/fsnotify/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/fsnotify/fsnotify/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/fsnotify/fsnotify/fsnotify.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/fsnotify/fsnotify/fsnotify.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/fsnotify/fsnotify/inotify_poller.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/fsnotify/fsnotify/inotify_poller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/fsnotify/fsnotify/open_mode_bsd.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/fsnotify/fsnotify/open_mode_bsd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/fsnotify/fsnotify/open_mode_darwin.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/fsnotify/fsnotify/open_mode_darwin.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/modules.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +116,11 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="479" y="77" width="473" height="603" key="#Build_Tags_&amp;_Vendoring" timestamp="1632662722305">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="479" y="77" width="473" height="603" key="#Build_Tags_&amp;_Vendoring/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1632662722305" />
+    <state x="718" y="226" width="484" height="604" key="#Build_Tags_&amp;_Vendoring/0.0.1920.1040@0.0.1920.1040" timestamp="1632661318610" />
     <state x="697" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632573909947">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -147,9 +157,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631112346262" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1632315134280">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1632574859812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1632315134280" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1632574859812" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1632660743975">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1632660743975" />
   </component>
 </project>
